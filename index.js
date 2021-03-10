@@ -4,6 +4,7 @@ let input = process.argv[2];
 let langCode = franc(input);
 let language = langs.where("3", langCode);
 
+//Clases 
   class Cylon {
     constructor(model, attack) {
        this.model = model
