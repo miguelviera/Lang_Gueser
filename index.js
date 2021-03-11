@@ -14,8 +14,10 @@ let language = langs.where("3", langCode);
   }
   class HumanSkin extends Cylon{
     constructor (infiltrate) {
-       super();
-
+    super();
+    this.infiltrate = function() {
+      return "Infiltrate the colonies"}
+     } 
   }
 
   
