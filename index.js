@@ -11,6 +11,7 @@ let language = langs.where("3", langCode);
        this.attack = function() {
          return "Destroy all humans!"}    
      }
+    
   }
 
 
