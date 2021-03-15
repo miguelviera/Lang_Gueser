@@ -20,3 +20,6 @@ function flatten() {
         newArr = []
     }
 
+    return arr;
+}
+  
