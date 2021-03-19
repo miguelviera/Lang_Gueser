@@ -19,7 +19,6 @@ function flatten() {
         arr = newArr;
         newArr = []
     }
-    return arr;
+    return arr
 }
-  
 
